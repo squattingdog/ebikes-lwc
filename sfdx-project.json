@@ -3,8 +3,18 @@
         {
             "path": "force-app",
             "default": true
+        },
+        {
+            "path": "./force-app",
+            "package": "ebikes-lwc",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "namespace": "",
-    "sourceApiVersion": "50.0"
+    "sourceApiVersion": "50.0",
+    "packageAliases": {
+        "ebikes-lwc": "0Ho4W000000PB2xSAG"
+    }
 }
